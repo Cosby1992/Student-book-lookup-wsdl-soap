@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2 (2)" type="JAX-WS">
+    <properties version="Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/saaj-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/jsr181-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/jaxws-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/ha-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/management-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/mimepull.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/gmbal-api-only.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/FastInoset.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/jaxws-tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/jaxb-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/stax-ex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/stax2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/streambuffer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/saaj-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/woodstox-core-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/soap-consumer/lib/jaxws-rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
