@@ -14,17 +14,26 @@ public class HelloWorldClient {
         boolean isValidISBN10;
         boolean isValidISBN13;
 
+        // this ISBN number is taken from a math formula collection book
+        final String ISBN10_NUMBER = "87-88751-59-7";
+        // this ISBN number is taken from the book "An Embarrassment of Witches"
+        final String ISBN13_NUMBER = "978-1-60309-462-7";
+
+
         try {
             ISBNServiceLocator locator = new ISBNServiceLocator();
             ISBNServiceSoapType service = locator.getISBNServiceSoap();
 
-            // this ISBN number is taken from a math formula collection book
-            isValidISBN10 = service.isValidISBN10("87-88751-59-7");
-            // this ISBN number is taken from the book "An Embarrassment of Witches"
-            isValidISBN13 = service.isValidISBN13("978-1-60309-462-7");
 
-            System.out.println(isValidISBN10);
-            System.out.println(isValidISBN13);
+            isValidISBN10 = service.isValidISBN10(ISBN10_NUMBER);
+            isValidISBN13 = service.isValidISBN13(ISBN13_NUMBER);
+
+            System.out.println();
+            System.out.println("--------------------- ISBN NUMBER CHECK -----------------------");
+            System.out.println("The book with ISBN number: " + ISBN10_NUMBER + " is " + (isValidISBN10 ? "valid" : "invalid"));
+            System.out.println("The book with ISBN number: " + ISBN13_NUMBER + " is " + (isValidISBN13 ? "valid" : "invalid"));
+            System.out.println("---------------------------------------------------------------");
+
         } catch (ServiceException | RemoteException ex) {
             ex.printStackTrace();
         }
